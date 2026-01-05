@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Dock, Navbar, Welcome } from "#components";
-import { Finder, Resume, Safari, Terminal, TextWindow } from "#windows";
+import { Finder, Resume, Safari, Terminal, TextWindow, ImageWindow } from "#windows";
 
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
@@ -20,6 +20,7 @@ const App = () => {
       <Resume />
       <Finder />
       <TextWindow />
+      <ImageWindow />
     </main>
   );
 };
