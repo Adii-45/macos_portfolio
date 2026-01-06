@@ -77,4 +77,4 @@ git clone https://github.com/Adii-45/macos_portfolio.git
 cd macos_portfolio
 npm install
 npm run build
-npm run dev```
+npm run dev
