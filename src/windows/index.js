@@ -4,5 +4,6 @@ import Resume from "./Resume.jsx";
 import Finder from "./Finder.jsx";
 import TextWindow from "./Text.jsx";
 import ImageWindow from "./Image.jsx";
+import ContactWindow from "./Contact.jsx";
 
-export { Terminal, Safari, Resume, Finder, TextWindow, ImageWindow };
+export { Terminal, Safari, Resume, Finder, TextWindow, ImageWindow, ContactWindow };
