@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Dock, Navbar, Welcome } from "#components";
+import { Dock, Home, Navbar, Welcome } from "#components";
 import { Finder, Resume, Safari, Terminal, TextWindow, ImageWindow, ContactWindow } from "#windows";
 
 import { gsap } from "gsap";
@@ -22,6 +22,8 @@ const App = () => {
       <TextWindow />
       <ImageWindow />
       <ContactWindow />
+      
+      <Home />
     </main>
   );
 };
