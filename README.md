@@ -1,16 +1,80 @@
-# React + Vite
+# macOS Portfolio 🖥️✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, interactive portfolio inspired by the macOS desktop experience.  
+Built to showcase projects, skills, and personal information in a desktop-style UI with smooth interactions.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://macos-portfolio-lake.vercel.app  
+📦 **Repository:** https://github.com/Adii-45/macos_portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**macOS Portfolio** recreates the feel of a real macOS environment on the web.  
+Instead of scrolling through a traditional portfolio, users interact with windows, apps, and UI elements — making the experience memorable and engaging.
 
-## Expanding the ESLint configuration
+This project focuses on:
+- Clean UI/UX
+- Smooth animations
+- Component-based architecture
+- Scalability for future features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🪟 macOS-style window system
+- 🎯 App-like navigation instead of scrolling
+- 🌗 Light & Dark mode support
+- ⚡ Smooth animations and transitions
+- 🧠 Centralized window & state management
+- 📱 Fully responsive design
+- 🔧 Easy to extend and customize
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Styling:** CSS / Utility-based styles
+- **State Management:** Central store (Zustand-style)
+- **Animations:** GSAP
+- **Icons:** Lucide / SVG Icons
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── App.jsx
+├── .gitignore
+├── package.json
+└── vite.config.js
+
+---
+
+## 🏁 Getting Started
+
+### 📋 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v16 or later)
+- **npm** or **yarn**
+
+---
+
+### 📥 Installation
+
+```bash
+git clone https://github.com/Adii-45/macos_portfolio.git
+cd macos_portfolio
+npm install
+npm run build
+npm run dev```
