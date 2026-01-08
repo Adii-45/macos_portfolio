@@ -106,7 +106,7 @@ const techStack = [
   },
   {
     category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React Native"],
   },
   {
     category: "Styling",
@@ -114,11 +114,11 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "NestJS"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB"],
   },
   {
     category: "Dev Tools",
@@ -132,28 +132,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/Adii-45",
   },
   {
     id: 2,
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://www.linkedin.com/in/adityanayak45/",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/AdiD_45",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/adityanayak45/",
   },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Habit Tracker",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,30 +233,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Habit_Tracker.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "This Habit Tracker is built to help users develop consistency by focusing on small daily actions.",
+            "It provides a simple and distraction-free way to create, track, and maintain habits over time.",
+            "The project emphasizes discipline and long-term growth rather than quick motivation.",
+            "It serves as a foundational step toward building a more comprehensive productivity system.",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "habit_tracker.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://habittrackerojt.vercel.app",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "habit_tracker.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Character Counter",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,30 +286,30 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Character Counter Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Character Counter is a simple tool that helps you count the number of characters in a text.",
+            "Instead of manually counting, you can paste your text and get an instant character count.",
+            "Think of it like having a digital notepad that keeps track of your writing progress.",
+            "It's built with Next.js and Tailwind, ensuring fast performance and a clean, user-friendly interface.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "character-counter.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://adii-45.github.io/Character-Counter/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "character-counter.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Memory Card Game",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,30 +339,83 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Memory Card Game.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Our Memory Card Game is a fun and interactive way to test your memory skills.",
+            "Instead of traditional gameplay, it offers a unique twist with customizable card sets and difficulty levels.",
+            "Think of it like a classic memory game—but with a modern, digital flair.",
+            "It’s built with React Native, ensuring a smooth experience on both iOS and Android devices.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "memory-card-game.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://adii-45.github.io/Memory-Card-Game/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "memory-card.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-3.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Weather App",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-60 left-90",
+      windowPosition: "top-[48vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Weather App.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Our Weather App is a sleek and user-friendly tool for checking the weather.",
+            "Instead of sifting through multiple websites, you get all the information you need in one place.",
+            "Think of it like having a personal weather assistant—always ready to help you plan your day.",
+            "It’s built with React and Tailwind, ensuring a smooth experience on both desktop and mobile devices.",
+          ],
+        },
+        {
+          id: 2,
+          name: "weather-app.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://adii-45.github.io/Weather-app/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "weather-app.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
